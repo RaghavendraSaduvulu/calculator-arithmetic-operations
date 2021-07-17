@@ -1,0 +1,106 @@
+body
+{
+    margin:0;
+    padding:0;
+    background: whitesmoke;
+    text-align: center;
+}
+.onimg
+{
+    color: white;
+    background: rgb(1, 26, 32);
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+}
+.container
+{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: fit-content;
+    width: fit-content;
+    display: inline-flex;
+    border:2px solid red;
+    
+}
+.container1{
+    width: 325px;
+    padding: 20px;
+    display: inline-flex;
+    border:2px solid yellow;
+    background: rgb(6, 67, 75);
+}
+.container2{
+    padding: 20px;
+    border:2px solid yellow;
+    width: 325px;
+    background: rgb(9, 93, 104);
+}
+.container1 .buttons1{
+    float: left;
+    margin: 0;
+    width: fit-content;
+    padding:0;
+}
+.buttons1 button , .buttons2 button{
+    height: 60px;
+    width: 60px;
+    font-size: x-large;
+}
+.container1 .buttons2{
+    float: left;
+    margin: 0;
+    padding:15px;
+    width: fit-content;
+    padding:0;
+}
+.container1 .num{
+    text-align: center;
+    align-items: center;
+    width: 550px;
+    color: yellow;
+    text-shadow: 1px 1px 1px white;
+    line-height: 30px;
+    font-size: x-large;
+    justify-content: center;
+    padding-top: 20px;
+}
+.container1 .num input{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: rgb(2, 25, 31);
+    outline: none;
+    text-shadow: 2px 1px 1px yellow;
+    text-align: center;
+    border-radius: 20px;
+}
+.container2{
+    display: inline-flex;
+}
+.container2 span{
+    font-size: 25px;
+    float: left;
+}
+.container2 div
+{   
+    margin: 10px;
+    width: fit-content;
+    height: 100%;
+}
+@media screen and (max-width:1200px) {
+    .onimg{
+        display: none;
+    }
+}
+@media screen and (min-width:1190px) {
+    .desktop-view{
+        display:none;
+    }
+}
+#result{
+    font-size: x-large;
+}    
